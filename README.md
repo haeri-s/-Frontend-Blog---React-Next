@@ -1,2 +1,3 @@
-# -Frontend-Blog---React-Next
+# [Frontend] Blog
 React.js, Next.js를 활용한 Blog
+

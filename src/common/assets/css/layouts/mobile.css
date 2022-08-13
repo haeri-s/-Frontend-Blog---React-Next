@@ -1,0 +1,166 @@
+@media (max-width: 768px) {
+    /* SubMain */
+    .sm_wrap {
+        display: none;
+    }
+    .tg_wrap {
+        margin-top: 54px; /*height: 45px; */
+        padding: 11px 15px;
+    }
+    .tg_wrap .moreBtn {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .tag a {
+        font-size: 14px;
+        margin: 0 6px 8px 0;
+        padding: 1px 8px;
+    }
+
+    /* blog list */
+    .content {
+        padding: 0 15px;
+        margin: 70px 0 60px 0;
+    }
+    .sl_wrap select {
+        font-size: 16px;
+    }
+    .thItem .thum {
+        flex-direction: column;
+    }
+    .th_img {
+        width: 100%;
+        height: auto;
+    }
+    .th_img img {
+        width: 100%;
+        height: auto;
+    }
+    .th_con .th_01 {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .th_con .th_02 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .thItem .hash a {
+        font-size: 14px;
+    }
+    .thum h4 {
+        white-space: normal;
+        font-size: 16px;
+        margin: 0;
+    }
+    .moreBtn a {
+        font-size: 14px;
+    }
+
+    /* blog detail */
+    .dt_wrap {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .dt_wrap .hash a {
+        font-size: 14px;
+    }
+    .dt_wrap .dt_tit {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    .dt_wrap .dt_date {
+        font-size: 14px;
+    }
+    .dt_wrap .dt_img {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .dt_wrap .dt_con {
+        font-size: 14px;
+    }
+    .dt_wrap .dt_sns {
+        margin-top: 24px;
+    }
+    .dt_wrap .dt_sns ul li {
+        margin-right: 8px;
+    }
+    .dt_wrap .dt_sns img {
+        height: 32px;
+    }
+    .dt_wrap .dt_sns .kakao-talk {
+        height: 32px;
+        width: 32px;
+    }
+    .dt_wrap .dt_sns .kakao-talk .kakatalk-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* recommend */
+    .rc_wrap {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .dt_wrap p.dtItem_tit {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+    .dtItem {
+        margin-bottom: 28px;
+    }
+    .dtItem .dtItem_02 {
+        font-size: 16px;
+    }
+
+    /* subscribe */
+    .sb_wrap .sb_sub {
+        padding: 24px 15px;
+    }
+    .sb_wrap .form-control {
+        font-size: 14px;
+        height: 40px;
+    }
+    .sb_wrap button {
+        font-size: 14px;
+    }
+    .sb_wrap .sb_sub p {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 12px;
+    }
+    .sb_wrap .sb_sub .email_form {
+        width: calc(100% - 95px);
+    }
+
+    /* footer */
+    .ft {
+        font-size: 12px;
+        padding: 23px 15px;
+        line-height: 15px;
+    }
+
+    /* scrolltop */
+    .scrollTop {
+        width: 40px;
+        height: 40px;
+    }
+    .scrollTop svg {
+        font-size: 20px;
+    }
+
+    /* 검색창 */
+    .search a {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        color: #565d66;
+        font-weight: 600;
+        background-color: #efefef;
+        padding: 8px 16px;
+        border-radius: 18px;
+        margin-right: 12px;
+        margin-bottom: 10px;
+    }
+}

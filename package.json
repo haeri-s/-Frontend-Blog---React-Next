@@ -1,0 +1,83 @@
+{
+  "name": "blog-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "start:production": "next start -p 8080",
+    "export": "next build && next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@date-io/date-fns": "^2.11.0",
+    "@date-io/moment": "^2.11.0",
+    "@emotion/cache": "^11.4.0",
+    "@emotion/react": "^11.5.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.1",
+    "@mui/lab": "^5.0.0-alpha.54",
+    "@mui/material": "^5.0.4",
+    "@mui/styles": "^5.0.1",
+    "@svgr/webpack": "^5.5.0",
+    "apollo-client": "^2.6.10",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-error": "^1.1.13",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.24.0",
+    "date-fns": "^2.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "firebase": "^9.6.8",
+    "globby": "^11.1.0",
+    "graphql": "^16.3.0",
+    "moment": "^2.29.1",
+    "next": "11.0.1",
+    "next-images": "^1.8.4",
+    "next-seo": "^5.3.0",
+    "nextjs-progressbar": "0.0.13",
+    "nprogress": "^0.2.0",
+    "prettier": "^2.4.1",
+    "react": "17.0.2",
+    "react-apollo": "^3.1.5",
+    "react-app-polyfill": "^3.0.0",
+    "react-cookies": "^0.1.1",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-countdown": "^2.3.2",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "17.0.2",
+    "react-dropzone": "^12.0.4",
+    "react-froala-wysiwyg": "^4.0.9",
+    "react-ga": "^3.3.0",
+    "react-ga-gtm": "^2.5.3-beta",
+    "react-icons": "^4.3.1",
+    "react-number-format": "^4.8.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-share": "^4.4.0",
+    "swr": "^1.0.1",
+    "uuid": "^8.3.2",
+    "validate": "^5.1.0",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
+    "eslint": "^8.11.0",
+    "eslint-config-next": "^12.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "ie 11",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "ie 11",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

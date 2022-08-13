@@ -1,0 +1,9 @@
+node_modules
+.next
+.DS_store
+.vs_code
+.firebase
+
+.env
+.env.prod
+scripts
